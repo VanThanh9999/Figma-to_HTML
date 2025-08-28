@@ -1,0 +1,28 @@
+@import './variable.scss'; 
+@import './mixin.scss'; 
+@import './line.scss'; 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+ul li {
+    list-style: none;
+}
+body{
+  font-family: "Ancizar Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+
+}

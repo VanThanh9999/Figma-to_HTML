@@ -1,0 +1,11 @@
+--Mixin--
+--Cú pháp--
+    @mixin mixinName{
+        css attribute 1
+        css attribute 2
+    }
+--Sử Dụng--
+    @include tên_mixin; #0f5132
+--Extend--
+Cú pháp:
+    "@Extend .tênclass;"

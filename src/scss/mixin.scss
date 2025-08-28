@@ -1,0 +1,31 @@
+@mixin button($color,$bgcolor,$hovercolor){
+    font-family: "Ancizar Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    color: $color;
+    background-color: $bgcolor;
+    border: 1px solid #e7e7e7;
+    &:hover{
+        cursor: pointer;
+        background-color: $hovercolor;
+    }
+}
+@mixin button_gradien($color,$bgcolor){
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    color: $color;
+    background-color: $bgcolor;
+   
+    border: 1px solid #e7e7e7;
+    background-image: linear-gradient(to right, #e9d362 0%, #333333 51%, #e9d362 100%);
+    &:hover{
+        cursor: pointer;
+        transition: .5s;
+        text-transform: uppercase;
+    }
+}
